@@ -3,6 +3,7 @@
     "name": "rhutik/test-project",
     "description": "E-commerce website",
     "require": {
+        "php" :" ^7.1",
         "phpunit/phpunit": "^9.5"
     }
     ,
