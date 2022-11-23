@@ -1,6 +1,14 @@
 
 {
-    "require-dev": {
-        "phpunit/phpunit": "9.3"
+    "name": "rhutik/test-project",
+    "description": "E-commerce website",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+    ,
+    "autoload": {
+        "psr-4": {
+            "Rhutik\\TestProject\\": "src/"
+        }
     }
 }
