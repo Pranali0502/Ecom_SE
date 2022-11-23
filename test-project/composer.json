@@ -2,7 +2,7 @@
 {
     "name": "rhutik/test-project",
     "description": "E-commerce website",
-    "require-dev": {
+    "require": {
         "phpunit/phpunit": "^9.5"
     }
     ,
