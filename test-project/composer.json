@@ -1,7 +1,7 @@
 
 {
     "require": {
-        "php" :" ^7.1",
+    
         "phpunit/phpunit": "^9.5",
         "silex/silex": "~1.1"
     }
