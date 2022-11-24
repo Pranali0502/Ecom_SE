@@ -12,13 +12,13 @@ class ComposerStaticInit8533ac5d6b3a92f5b355d4052babe78e
     );
 
     public static $prefixLengthsPsr4 = array (
-        'R' => 
-        array (
-            'Rhutik\\TestProject\\' => 19,
-        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
+        ),
+        'H' => 
+        array (
+            'Hp\\TestProject\\' => 15,
         ),
         'D' => 
         array (
@@ -28,13 +28,13 @@ class ComposerStaticInit8533ac5d6b3a92f5b355d4052babe78e
     );
 
     public static $prefixDirsPsr4 = array (
-        'Rhutik\\TestProject\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Hp\\TestProject\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
