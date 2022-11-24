@@ -1,0 +1,9 @@
+{
+    "name": "hp/test-project",
+    "autoload": {
+        "psr-4": {
+            "Hp\\TestProject\\": "src/"
+        }
+    },
+    "require": {}
+}
