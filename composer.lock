@@ -1010,9 +1010,7 @@
                 "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1066,9 +1064,7 @@
                 "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1122,7 +1118,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                
                 "sebastian/diff": "^4.0",
                 "sebastian/exporter": "^4.0"
             },
@@ -1196,8 +1192,8 @@
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^4.7",
-                "php": ">=7.3"
+                "nikic/php-parser": "^4.7"
+                
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -1252,9 +1248,7 @@
                 "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+          
             "require-dev": {
                 "phpunit/phpunit": "^9.3",
                 "symfony/process": "^4.2 || ^5"
@@ -1318,9 +1312,7 @@
                 "reference": "1b5dff7bb151a4db11d49d90e5408e4e938270f7",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1382,7 +1374,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+               
                 "sebastian/recursion-context": "^4.0"
             },
             "require-dev": {
@@ -1459,7 +1451,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                
                 "sebastian/object-reflector": "^2.0",
                 "sebastian/recursion-context": "^4.0"
             },
@@ -1523,8 +1515,8 @@
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^4.6",
-                "php": ">=7.3"
+                "nikic/php-parser": "^4.6"
+                
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -1580,7 +1572,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+               
                 "sebastian/object-reflector": "^2.0",
                 "sebastian/recursion-context": "^4.0"
             },
@@ -1636,9 +1628,7 @@
                 "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1691,9 +1681,7 @@
                 "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1754,9 +1742,7 @@
                 "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.0"
             },
@@ -1809,9 +1795,7 @@
                 "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1969,8 +1953,8 @@
                 "shasum": ""
             },
             "require": {
-                "ext-ctype": "*",
-                "php": "^7.2 || ^8.0"
+                "ext-ctype": "*"
+               
             },
             "conflict": {
                 "phpstan/phpstan": "<0.12.20",
