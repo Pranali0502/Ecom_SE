@@ -88,9 +88,7 @@
                 "reference": "14daed4296fae74d9e3201d2c4925d1acb7aa614",
                 "shasum": ""
             },
-            "require": {
-                "php": "^7.1 || ^8.0"
-            },
+           
             "conflict": {
                 "doctrine/collections": "<1.6.8",
                 "doctrine/common": "<2.13.3 || >=3,<3.2.2"
@@ -147,10 +145,7 @@
                 "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
                 "shasum": ""
             },
-            "require": {
-                "ext-tokenizer": "*",
-                "php": ">=7.0"
-            },
+            
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
@@ -263,9 +258,7 @@
                 "reference": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
                 "shasum": ""
             },
-            "require": {
-                "php": "^7.2 || ^8.0"
-            },
+           
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -319,7 +312,7 @@
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
                 "nikic/php-parser": "^4.14",
-                "php": ">=7.3",
+               
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
                 "sebastian/code-unit-reverse-lookup": "^2.0.2",
@@ -329,9 +322,7 @@
                 "sebastian/version": "^3.0.1",
                 "theseer/tokenizer": "^1.2.0"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^9.3"
-            },
+           
             "suggest": {
                 "ext-pcov": "*",
                 "ext-xdebug": "*"
@@ -391,9 +382,7 @@
                 "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -451,9 +440,7 @@
                 "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+          
             "require-dev": {
                 "ext-pcntl": "*",
                 "phpunit/phpunit": "^9.3"
@@ -514,9 +501,7 @@
                 "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -573,9 +558,7 @@
                 "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -643,7 +626,7 @@
                 "myclabs/deep-copy": "^1.10.1",
                 "phar-io/manifest": "^2.0.3",
                 "phar-io/version": "^3.0.2",
-                "php": ">=7.3",
+              
                 "phpunit/php-code-coverage": "^9.2.13",
                 "phpunit/php-file-iterator": "^3.0.5",
                 "phpunit/php-invoker": "^3.1.1",
@@ -734,9 +717,7 @@
                 "reference": "442e7c7e687e42adc03470c7b668bc4b2402c0b2",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -790,9 +771,7 @@
                 "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -846,9 +825,7 @@
                 "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -902,7 +879,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                
                 "sebastian/diff": "^4.0",
                 "sebastian/exporter": "^4.0"
             },
@@ -976,8 +953,8 @@
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^4.7",
-                "php": ">=7.3"
+                "nikic/php-parser": "^4.7"
+                
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -1032,9 +1009,7 @@
                 "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3",
                 "symfony/process": "^4.2 || ^5"
@@ -1098,9 +1073,7 @@
                 "reference": "1b5dff7bb151a4db11d49d90e5408e4e938270f7",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1162,7 +1135,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                
                 "sebastian/recursion-context": "^4.0"
             },
             "require-dev": {
@@ -1239,7 +1212,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                
                 "sebastian/object-reflector": "^2.0",
                 "sebastian/recursion-context": "^4.0"
             },
@@ -1303,8 +1276,8 @@
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^4.6",
-                "php": ">=7.3"
+                "nikic/php-parser": "^4.6"
+                
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -1360,7 +1333,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+               
                 "sebastian/object-reflector": "^2.0",
                 "sebastian/recursion-context": "^4.0"
             },
@@ -1416,9 +1389,7 @@
                 "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1471,9 +1442,7 @@
                 "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
             },
@@ -1534,9 +1503,7 @@
                 "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "require-dev": {
                 "phpunit/phpunit": "^9.0"
             },
@@ -1589,9 +1556,7 @@
                 "reference": "fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+           
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
@@ -1645,9 +1610,7 @@
                 "reference": "c6c1022351a901512170118436c764e473f6de8c",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=7.3"
-            },
+            
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1701,8 +1664,8 @@
             "require": {
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
-                "ext-xmlwriter": "*",
-                "php": "^7.2 || ^8.0"
+                "ext-xmlwriter": "*"
+                
             },
             "type": "library",
             "autoload": {
