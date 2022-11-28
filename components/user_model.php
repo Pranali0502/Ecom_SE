@@ -49,29 +49,29 @@ function checkAdmin($admin_id){
     return 0;
 }
 
-function getTotalPendings($admin_id){
+// function getTotalPendings($admin_id){
     
-    $isadmin = checkAdmin($admin_id);
+//     $isadmin = checkAdmin($admin_id);
     
-    if ($isadmin) {
-        $total_pendings = 0;
-        global $conn;
-        $select_pendings = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
-        $select_pendings->execute(['pending']);
-        if($select_pendings->rowCount() > 0){
-        while($fetch_pendings = $select_pendings->fetch(PDO::FETCH_ASSOC)){
-            $total_pendings += $fetch_pendings['total_price'];
-            }
-        }
+//     if ($isadmin) {
+//         $total_pendings = 0;
+//         global $conn;
+//         $select_pendings = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
+//         $select_pendings->execute(['pending']);
+//         if($select_pendings->rowCount() > 0){
+//         while($fetch_pendings = $select_pendings->fetch(PDO::FETCH_ASSOC)){
+//             $total_pendings += $fetch_pendings['total_price'];
+//             }
+//         }
 
-        return $total_pendings;
-    }
-    else{
+//         return $total_pendings;
+//     }
+//     else{
 
-        return -1;
+//         return -1;
 
-    }
-}
+//     }
+// }
 
 
 function getTotalCompletes($admin_id){
